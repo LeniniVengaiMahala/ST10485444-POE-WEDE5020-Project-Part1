@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Karla, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #81c3d7;
+}
+header {
+    background-color: #16425b;
+    position: sticky;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+      display: flex; align-items: center; justify-content: space-between;
+      margin: 0;
+      padding: .9rem 0;
+      text-decoration-color: azure;
+    }
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-decoration-color: azure;
+}
+nav ul li {
+    margin: 0 15px;
+    list-style: none;  
+    text-decoration-color: azure;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration-color: azure;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(9, 209, 25);
+    color: rgb(9, 209, 25);
+}
+#Homepage {
+    border: solid 2px #2f6690;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 100px;
+}
+.hero-buttons ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+.hero-buttons ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 0px;
+    padding: 10px 20px;
+    width: 200px;
+    border: solid 2px #2f6690;
+    border-radius: 30px;
+}
+.hero-buttons li {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.hero-buttons li:hover {
+    background-color: #0b2a3b;
+    color: rgb(9, 209, 25);
+
+
+}
+#aboutUs, #Services, #contactUs, #News {
+    border: solid 2px #2f6690;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+.service-description {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.service-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.service-description li {
+    margin-bottom: 10px;
+    line-height: 1.0;
+}
+.booking-button {
+    margin-top: 20px;
+    text-align: center;
+    border: solid 2px #2f6690;
+    border-radius: 30px;
+}
+.booking-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #16425b;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.booking-button a:hover {
+    background-color: #0b2a3b;
+    color: rgb(9, 209, 25);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: px;
+    margin-top: 10px;
+}
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #16425b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -6,6 +6,7 @@
     <title>Pitch Perfectly ZA Pty</title>
     <meta name="description" content="Pitch Perfectly ZA Pty is a digital marketing agency specializing in pitch creation and presentation for businesses in South Africa.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     
 </head>
 <body>
@@ -15,10 +16,10 @@
         <nav>
             <ul>
                 <li><a href="#Homepage">Home</a></li>
-                <li><a href="#aboutUs.html">About Us</a></li>
-                <li><a href="#Services.html">Services</a></li>
-                <li><a href="#contactUs.html">Contact</a></li>
-                <li><a href="#News.html">News</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+                <li><a href="News.html">News</a></li>
             </ul>
         </nav>
     </header>
@@ -26,31 +27,40 @@
     <main id="Homepage">
         <h2>Email Campaigns That Convert - Effortlessly</h2>
         <P>Welcome to Pitch Perfectly, your got-to digital marketing agency for high-impact email campaigns. From sleek newsletter design to smart automation and insightful analytics- we deliver affordable, measurable results that grow your brand. </P>
-       <ul><a href="Bookings.html">Make a Booking Now</a></ul> 
-        <Ul><a href="Services.html">Learn More</a></Ul> 
-        
+        <nav class="hero-buttons">
+            <ul>
+                <li><a href="Bookings.html">Make a Booking Now</a></li>
+                <br></br>
+                <li><a href="Services.html">Learn More</a></li>
+            </ul>
+        </nav>
     </main>
     <!-- Intro / About Us -->
-    <section id="aboutUs.html">
+    <section id="aboutUs">
         <h2><a href="AboutUs.html">About Us</a></h2>
         <p> At PitchPerfectly, we specialize in crafting email marketing campaigns that deliver results. Whether you're a startup or a seasoned brand, our personalized, data-driven strategies help you connect with your audience and grow your business. With services like newsletter design, automation, segmentation, and performance analytics, we make email marketing simple, effective, and affordable.</p>
     </section>
-<h2><a href="Services.html">Our Services</a></h2>
-    <section id="Services.html">
+       
+    <section id="Services">
+        <h2><a href="Services.html">Our Services</a></h2>
         <h3>What We Offer</h3>
+        <div class="service-description">
         <ul>
-            <li>Email Campaign Design: Custom templates that reflect your brand and engage your audience.</li>
-            <li>Automation & Workflows: Set up automated email sequences to nurture leads and drive conversions.</li>
-            <li>Segmentation & Targeting: Deliver the right message to the right audience for maximum impact.</li>
-            <li>Analytics & Reporting: Track open rates, click-throughs, and conversions to optimize your campaigns.</li>
-            <li>A/B Testing: Experiment with different subject lines, content, and designs to find what works best.</li>
-            <li>Consultation & Strategy: Get expert advice on building an effective email marketing strategy.</li>
-            <li>Ongoing Support: We're here to help you every step of the way, from setup to optimization.</li>
+            <li><i>Email Campaign Design:</i> Custom templates that reflect your brand and engage your audience.</li>
+            <li><i>Automation & Workflows:</i> Set up automated email sequences to nurture leads and drive conversions.</li>
+            <li><i>Segmentation & Targeting:</i> Deliver the right message to the right audience for maximum impact.</li>
+            <li><i>Analytics & Reporting:</i> Track open rates, click-throughs, and conversions to optimize your campaigns.</li>
+            <li><i>A/B Testing:</i> Experiment with different subject lines, content, and designs to find what works best.</li>
+            <li><i>Consultation & Strategy:</i> Get expert advice on building an effective email marketing strategy.</li>
+            <li><i>Ongoing Support:</i> We're here to help you every step of the way, from setup to optimization.</li>
         </ul>
-        <ul><a href="Bookings.html">Make a Booking Now</a></ul>
+        </div>
+        <div class="booking-button">
+            <ul><a href="Bookings.html">Make a Booking Now</a></ul>
+        </div>
     </section>
     <!-- Contact Us -->
-    <section id="contactUs.html">
+    <section id="contactUs">
         <h2><a href="ContactUs.html">Get in Touch</a></h2>
         <p>Ready to take your email marketing to the next level? Contact us today for a free consultation!</p>
         <form action="#" method="post">
@@ -62,10 +72,12 @@
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
-        <ul><a href="Bookings.html">Make a booking Now</a></ul>
+        <div class="booking-button">
+            <ul><a href="Bookings.html">Make a booking Now</a></ul>
+        </div>
     </section>
     <!-- News / Updates -->
-    <section id="News.html">
+    <section id="News">
         <h2><a href="News.html">Latest News</a></h2>
         <article>
             <h3>New Service Launch: Advanced Segmentation</h3>
@@ -79,7 +91,7 @@
 
     <footer>
     <small>© 2025 PitchPerfectly ZA Pty. All rights reserved.</small>
-    <nav>
+    <nav="footer-nav">
       <a href="Privacy.html">Privacy</a>
       <a href="Terms.html">Terms</a>
       <a href="Docs.html">Docs</a>
