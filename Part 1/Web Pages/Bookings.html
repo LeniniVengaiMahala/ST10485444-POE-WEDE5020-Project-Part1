@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
+    <header class="mainmenu-sticky">
         <h1>Bookings</h1>
         <nav>
             <ul>
@@ -22,12 +22,12 @@
     <main>
         <section>
             <h2>Book a Consultation Session</h2>
-            <calendar>
+            <div class="calendar">
                 <label for="date">Select a Date:</label><br>
                 <input type="date" id="date" name="date" required><br><br>
                 <label for="time">Select a Time:</label><br>
                 <input type="time" id="time" name="time" required><br><br>
-            </calendar>
+            </div>
             <form action="#" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
@@ -44,6 +44,7 @@
                 <input type="submit" value="Book Now">
         </section>
     </main>
+    <div class="spacer">
     <footer>
         <small>© 2025 PitchPerfectly ZA Pty. All rights reserved.</small>
         <nav="footer-nav">
@@ -52,5 +53,6 @@
             <a href="Docs.html">Docs</a>
         </nav>
     </footer>
+    </div>
 </body>
 </html>

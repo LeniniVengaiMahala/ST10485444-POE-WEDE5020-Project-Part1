@@ -1,8 +1,10 @@
 body {
     font-family: Arial, Karla, sans-serif;
-    margin: 10px;
+    margin: 0%;
     padding: 0;
     background-color: #81c3d7;
+    flex-wrap: wrap;
+
 }
 header {
     background-color: #16425b;
@@ -12,6 +14,10 @@ header {
     padding: 10px;
     text-align: center;
     position: relative;
+}
+p {
+    line-height: 1.6;
+    margin: 10px 0;
 }
 .contact-header {
     text-align: center;
@@ -57,6 +63,7 @@ nav ul li a:hover {
 }
 .hero-buttons ul {
     display: flex;
+    gap: 80px;
     padding: 0;
     margin: 20px 0 0 0;
     list-style: none;
@@ -74,6 +81,7 @@ nav ul li a:hover {
     width: 200px;
     border: solid 2px #2f6690;
     border-radius: 30px;
+    flex-wrap: wrap center;
 }
 .hero-buttons li {
     font-size: 16px;
@@ -93,6 +101,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 20px 50px;
     margin-top: 20px;
+    background-color: #d9dcd6;
 }
 .service-description {
     text-align: left;
@@ -110,7 +119,6 @@ nav ul li a:hover {
 .booking-button {
     margin-top: 20px;
     text-align: center;
-    
     border-radius: 30px;
 }
 .booking-button a {
@@ -121,10 +129,22 @@ nav ul li a:hover {
     background-color: #16425b;
     border-radius: 30px;
     font-weight: bold;
+    justify-content: center;
 }
 .booking-button a:hover {
     background-color: #0b2a3b;
     color: rgb(9, 209, 25);
+}
+
+.contact-header {
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-info .booking-button{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 form {
     display: flex;
@@ -132,13 +152,17 @@ form {
     align-items: center;
     gap: px;
     margin-top: 10px;
+    background-color: #d9dcd6;
+    padding: 20px;
+    border: solid 2px #2f6690;
+    border-radius: 10px;
 }
 form label {
     margin-bottom: 5px;
     font-weight: bold;
 }
 form input, form textarea {
-    width: 100%;
+    width: 50%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -151,4 +175,61 @@ form button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.mvvat {
+    border: solid 2px #2f6690;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 20px;
+    background-color: #d9dcd6;
+}
+.mvvat h2 {
+    text-align: center;
+    margin-top: 20px;
+}   
+.mvvat ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.service-title {
+    border: solid 2px #2f6690;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 20px;
+    background-color: #d9dcd6;
+}
+
+.service-title h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+.service-title ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.news-article {
+    border: solid 2px #2f6690;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 50px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #d9dcd6;
+}
+.spacer {
+    height: 20px; /* Adjust the height as needed */
+    background-color: #81c3d7; /* Match the body background color */
+    margin: 50px 0;
+    justify-content: center;
+    display: flex;
+}
+.calendar {
+    margin: 30px;
+    
 }

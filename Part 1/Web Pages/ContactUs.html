@@ -21,11 +21,11 @@
     </header>
     <main>
         <section>
-            <h2>Get in Touch</h2>
+            <h2 class="contact-header">Get in Touch</h2>
             <p>If you have any questions or inquiries, please feel free to reach out to us using the contact form below.</p>
         </section>
         <section>
-            <h2>Contact Form</h2>
+            <h2 class="contact-header">Contact Form</h2>
             <form action="#" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
@@ -35,9 +35,14 @@
                 <textarea id="message" name="message" rows="4" required></textarea><br><br>
                 <input type="submit" value="Submit">
             </form>
-            <ul><a href="Bookings.html">Make a Booking Now</a></ul>
+            <div class="contact-info">
+            <nav class="booking-button">
+                <ul><a href="Bookings.html">Make a Booking Now</a></ul>
+            </nav>
+            </div>  
         </section>
     </main>
+    <div class="spacer">
     <footer>
         <small>© 2025 PitchPerfectly ZA Pty. All rights reserved.</small>
         <nav="footer-nav">
@@ -46,5 +51,6 @@
             <a href="Docs.html">Docs</a>
         </nav>
     </footer>
+    </div>
 </body>
 </html>
