@@ -4,7 +4,15 @@ body {
     padding: 0;
     background-color: #81c3d7;
     flex-wrap: wrap;
+    
 
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: auto;
 }
 header {
     background-color: #16425b;
@@ -58,8 +66,10 @@ nav ul li a:hover {
     border: solid 2px #2f6690;
     border-radius: 10px;
     text-align: center;
-    padding: 40px 100px;
+    padding: 40px 10px;
     background-color: #d9dcd6;
+    flex-wrap: wrap;
+
 }
 .hero-buttons ul {
     display: flex;
@@ -98,10 +108,13 @@ nav ul li a:hover {
 #aboutUs, #Services, #contactUs, #News {
     border: solid 2px #2f6690;
     border-radius: 10px;
-    text-align: center;
     padding: 20px 50px;
     margin-top: 20px;
     background-color: #d9dcd6;
+}
+#aboutUs h2, #Services h2, #contactUs h2, #News h2 {
+    text-align: center;
+    margin-top: 0px;
 }
 .service-description {
     text-align: left;
@@ -232,4 +245,17 @@ form button {
 .calendar {
     margin: 30px;
     
+}
+@media (max-width: 750px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-buttons ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    form input, form textarea {
+        width: 80%;
+    }
 }
