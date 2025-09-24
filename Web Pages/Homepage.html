@@ -5,29 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitch Perfectly ZA Pty</title>
     <meta name="description" content="Pitch Perfectly ZA Pty is a digital marketing agency specializing in pitch creation and presentation for businesses in South Africa.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     
 </head>
 <body>
     <!-- Header / Navigation -->
     <header>
-        <h1>Welcome to Pitch Perfectly ZA Pty</h1>
-        <nav>
-            <ul>
+        <div class="nav-container">
+            <a href="#Homepage" class="logo"><img src="Logo1a.png" alt="logo" width="80px" height="80px"></a>
+            <button class="nav-toggle" aria-label="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav>
+            <ul class="nav-links">
                 <li><a href="#Homepage">Home</a></li>
-                <li><a href="#aboutUs.html">About Us</a></li>
-                <li><a href="#Services.html">Services</a></li>
-                <li><a href="#contactUs.html">Contact</a></li>
-                <li><a href="#News.html">News</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="ContactUs.html">Contact</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><button class="book-now"><a href="Bookings.html">Book Now</a></button></li>
+                
             </ul>
         </nav>
+        </div>
     </header>
     <!-- Hero -->
     <main id="Homepage">
-        <h2>Email Campaigns That Convert - Effortlessly</h2>
-        <P>Welcome to Pitch Perfectly, your got-to digital marketing agency for high-impact email campaigns. From sleek newsletter design to smart automation and insightful analytics- we deliver affordable, measurable results that grow your brand. </P>
-       <ul><a href="Bookings.html">Make a Booking Now</a></ul> 
-        <Ul><a href="Services.html">Learn More</a></Ul> 
+        <div class="Hero-image">
+            <div class="Hero-text">
+               <h2>Email Campaigns That Convert - Effortlessly</h2>
+                 <P>Welcome to Pitch Perfectly, your got-to digital marketing agency for high-impact email campaigns. From sleek newsletter design to smart automation and insightful analytics- we deliver affordable, measurable results that grow your brand. </P>
+                 <a href="Bookings.html" class="Hero-btn1">Booking Now</a>
+                 <a href="Services.html" class="Hero-btn2">Learn More</a> 
+            </div>
+        </div>
         
     </main>
     <!-- Intro / About Us -->
